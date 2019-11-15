@@ -26,8 +26,10 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = $this->createTreeBuilder();
-        $children = $treeBuilder->root('ivory_google_map')
+
+        $treeBuilder = new TreeBuilder('ivory_google_map');
+
+        $children =$treeBuilder->getRootNode()
             ->children()
             ->append($this->createMapNode())
             ->append($this->createStaticMapNode());
@@ -149,7 +151,7 @@ class Configuration implements ConfigurationInterface
      */
     private function createNode($name, $type = 'array')
     {
-        return $this->createTreeBuilder()->root($name, $type);
+        return (new TreeBuilder($name,$type))->getRootNode();
     }
 
     /**

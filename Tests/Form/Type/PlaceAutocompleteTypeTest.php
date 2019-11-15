@@ -19,12 +19,12 @@ use Ivory\GoogleMapBundle\Form\Type\PlaceAutocompleteType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormFactoryInterface;
 use Symfony\Component\Form\FormInterface;
-use Symfony\Component\Form\Forms;
+use Symfony\Component\Form\Forms;use PHPUnit\Framework\TestCase;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>
  */
-class PlaceAutocompleteTypeTest extends \PHPUnit_Framework_TestCase
+class PlaceAutocompleteTypeTest extends TestCase
 {
     /**
      * @var FormFactoryInterface

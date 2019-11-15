@@ -13,7 +13,7 @@ namespace Ivory\GoogleMapBundle\Tests\Twig;
 
 use Ivory\GoogleMap\Helper\PlaceAutocompleteHelper;
 use Ivory\GoogleMap\Place\Autocomplete;
-use Ivory\GoogleMapBundle\Twig\PlaceAutocompleteExtension;
+use Ivory\GoogleMapBundle\Twig\PlaceAutocompleteExtension;use PHPUnit\Framework\TestCase;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>

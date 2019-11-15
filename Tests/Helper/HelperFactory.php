@@ -18,7 +18,7 @@ use Ivory\GoogleMap\Helper\StaticMapHelper;
 use Ivory\GoogleMapBundle\DependencyInjection\IvoryGoogleMapExtension;
 use Ivory\GoogleMapBundle\IvoryGoogleMapBundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;use PHPUnit\Framework\TestCase;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>

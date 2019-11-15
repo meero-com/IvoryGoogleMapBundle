@@ -31,12 +31,12 @@ use Ivory\GoogleMapBundle\DependencyInjection\IvoryGoogleMapExtension;
 use Ivory\GoogleMapBundle\IvoryGoogleMapBundle;
 use Ivory\Serializer\SerializerInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Definition;
+use Symfony\Component\DependencyInjection\Definition;use PHPUnit\Framework\TestCase;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>
  */
-abstract class AbstractIvoryGoogleMapExtensionTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractIvoryGoogleMapExtensionTest extends TestCase
 {
     /**
      * @var ContainerBuilder

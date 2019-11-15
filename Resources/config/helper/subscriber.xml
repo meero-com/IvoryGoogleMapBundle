@@ -7,7 +7,8 @@
 >
     <services>
         <service
-            id="ivory.google_map.helper.subscriber.abstract"
+ public="true"
+             id="ivory.google_map.helper.subscriber.abstract"
             class="Ivory\GoogleMap\Helper\Subscriber\AbstractSubscriber"
             abstract="true"
         >
@@ -15,7 +16,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.api_javascript"
+ public="true"
+             id="ivory.google_map.helper.subscriber.api_javascript"
             class="Ivory\GoogleMap\Helper\Subscriber\ApiJavascriptSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -25,7 +27,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.base"
+ public="true"
+             id="ivory.google_map.helper.subscriber.base"
             class="Ivory\GoogleMap\Helper\Subscriber\Base\BaseSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -33,7 +36,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.base.bound"
+ public="true"
+             id="ivory.google_map.helper.subscriber.base.bound"
             class="Ivory\GoogleMap\Helper\Subscriber\Base\BoundSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -43,7 +47,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.base.coordinate"
+ public="true"
+             id="ivory.google_map.helper.subscriber.base.coordinate"
             class="Ivory\GoogleMap\Helper\Subscriber\Base\CoordinateSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -53,7 +58,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.base.point"
+ public="true"
+             id="ivory.google_map.helper.subscriber.base.point"
             class="Ivory\GoogleMap\Helper\Subscriber\Base\PointSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -63,7 +69,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.base.size"
+ public="true"
+             id="ivory.google_map.helper.subscriber.base.size"
             class="Ivory\GoogleMap\Helper\Subscriber\Base\SizeSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -73,7 +80,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.control"
+ public="true"
+             id="ivory.google_map.helper.subscriber.control"
             class="Ivory\GoogleMap\Helper\Subscriber\Control\ControlSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -81,7 +89,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.control.custom"
+ public="true"
+             id="ivory.google_map.helper.subscriber.control.custom"
             class="Ivory\GoogleMap\Helper\Subscriber\Control\CustomControlSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -91,7 +100,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.event"
+ public="true"
+             id="ivory.google_map.helper.subscriber.event"
             class="Ivory\GoogleMap\Helper\Subscriber\Event\EventSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -99,7 +109,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.event.dom_event"
+ public="true"
+             id="ivory.google_map.helper.subscriber.event.dom_event"
             class="Ivory\GoogleMap\Helper\Subscriber\Event\DomEventSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -109,7 +120,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.event.dom_event_once"
+ public="true"
+             id="ivory.google_map.helper.subscriber.event.dom_event_once"
             class="Ivory\GoogleMap\Helper\Subscriber\Event\DomEventOnceSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -119,7 +131,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.event.event"
+ public="true"
+             id="ivory.google_map.helper.subscriber.event.event"
             class="Ivory\GoogleMap\Helper\Subscriber\Event\SimpleEventSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -129,7 +142,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.event.event_once"
+ public="true"
+             id="ivory.google_map.helper.subscriber.event.event_once"
             class="Ivory\GoogleMap\Helper\Subscriber\Event\EventOnceSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -139,7 +153,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.layer"
+ public="true"
+             id="ivory.google_map.helper.subscriber.layer"
             class="Ivory\GoogleMap\Helper\Subscriber\Layer\LayerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -147,7 +162,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.layer.geo_json"
+ public="true"
+             id="ivory.google_map.helper.subscriber.layer.geo_json"
             class="Ivory\GoogleMap\Helper\Subscriber\Layer\GeoJsonLayerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -157,7 +173,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.layer.heatmap"
+ public="true"
+             id="ivory.google_map.helper.subscriber.layer.heatmap"
             class="Ivory\GoogleMap\Helper\Subscriber\Layer\HeatmapLayerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -168,7 +185,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.layer.kml"
+ public="true"
+             id="ivory.google_map.helper.subscriber.layer.kml"
             class="Ivory\GoogleMap\Helper\Subscriber\Layer\KmlLayerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -178,7 +196,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map"
             class="Ivory\GoogleMap\Helper\Subscriber\MapSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -187,7 +206,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_bound"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_bound"
             class="Ivory\GoogleMap\Helper\Subscriber\MapBoundSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -196,7 +216,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_center"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_center"
             class="Ivory\GoogleMap\Helper\Subscriber\MapCenterSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -205,7 +226,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_container"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_container"
             class="Ivory\GoogleMap\Helper\Subscriber\MapContainerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -214,7 +236,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_html"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_html"
             class="Ivory\GoogleMap\Helper\Subscriber\MapHtmlSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -223,7 +246,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_init"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_init"
             class="Ivory\GoogleMap\Helper\Subscriber\MapInitSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -231,7 +255,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_javascript"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_javascript"
             class="Ivory\GoogleMap\Helper\Subscriber\MapJavascriptSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -243,7 +268,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.map_stylehseet"
+ public="true"
+             id="ivory.google_map.helper.subscriber.map_stylehseet"
             class="Ivory\GoogleMap\Helper\Subscriber\MapStylesheetSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -252,7 +278,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\OverlaySubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -260,7 +287,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.circle"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.circle"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\CircleSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -270,7 +298,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.encoded_polyline"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.encoded_polyline"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\EncodedPolylineSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -281,7 +310,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.extendable"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.extendable"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\ExtendableSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -291,7 +321,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.ground_overlay"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.ground_overlay"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\GroundOverlaySubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -301,7 +332,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.icon"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.icon"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\IconSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -311,7 +343,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.icon_sequence"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.icon_sequence"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\IconSequenceSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -321,7 +354,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.info_box"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.info_box"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\InfoBoxSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -332,7 +366,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.info_window.close"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.info_window.close"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\InfoWindowCloseSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -342,7 +377,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.info_window.open"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.info_window.open"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\InfoWindowOpenSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -352,7 +388,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.info_window.default"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.info_window.default"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\DefaultInfoWindowSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -362,7 +399,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.marker"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.marker"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\MarkerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -372,7 +410,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.marker_clusterer"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.marker_clusterer"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\MarkerClustererSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -382,7 +421,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.marker_shape"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.marker_shape"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\MarkerShapeSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -392,7 +432,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.marker.info_window.open"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.marker.info_window.open"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\MarkerInfoWindowOpenSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -403,7 +444,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.polygon"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.polygon"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\PolygonSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -413,7 +455,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.polyline"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.polyline"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\PolylineSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -423,7 +466,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.rectangle"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.rectangle"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\RectangleSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -433,7 +477,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.overlay.symbol"
+ public="true"
+             id="ivory.google_map.helper.subscriber.overlay.symbol"
             class="Ivory\GoogleMap\Helper\Subscriber\Overlay\SymbolSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -443,7 +488,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\AutocompleteSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -452,7 +498,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete_container"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete_container"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\AutocompleteContainerSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -461,7 +508,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete_html"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete_html"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\AutocompleteHtmlSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -470,7 +518,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete_init"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete_init"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\AutocompleteInitSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -478,7 +527,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete_javascript"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete_javascript"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\AutocompleteJavascriptSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -490,7 +540,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.base"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.base"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Base\AutocompleteBaseSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -498,7 +549,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.base.bound"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.base.bound"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Base\AutocompleteBoundSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -508,7 +560,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.base.coordinate"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.base.coordinate"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Base\AutocompleteCoordinateSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -518,7 +571,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.event"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.event"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Event\AutocompleteEventSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -526,7 +580,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.event.dom_event"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.event.dom_event"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Event\AutocompleteDomEventSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -536,7 +591,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.event.dom_event_once"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.event.dom_event_once"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Event\AutocompleteDomEventOnceSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -546,7 +602,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.event.event"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.event.event"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Event\AutocompleteSimpleEventSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -556,7 +613,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.place.autocomplete.event.event_once"
+ public="true"
+             id="ivory.google_map.helper.subscriber.place.autocomplete.event.event_once"
             class="Ivory\GoogleMap\Helper\Subscriber\Place\Event\AutocompleteEventOnceSubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >
@@ -566,14 +624,16 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\StaticSubscriber"
         >
             <tag name="ivory.google_map.helper.map.static.subscriber" />
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.center"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.center"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\CenterSubscriber"
         >
             <argument type="service" id="ivory.google_map.helper.renderer.static.base.coordinate" />
@@ -581,7 +641,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.encoded_polyline"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.encoded_polyline"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\EncodedPolylineSubscriber"
         >
             <argument type="service" id="ivory.google_map.helper.collector.static.encoded_polyline" />
@@ -590,7 +651,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.extendable"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.extendable"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\ExtendableSubscriber"
         >
             <argument type="service" id="ivory.google_map.helper.collector.static.extendable" />
@@ -599,21 +661,24 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.format"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.format"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\FormatSubscriber"
         >
             <tag name="ivory.google_map.helper.map.static.subscriber" />
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.key"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.key"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\KeySubscriber"
         >
             <tag name="ivory.google_map.helper.map.static.subscriber" />
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.marker"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.marker"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\MarkerSubscriber"
         >
             <argument type="service" id="ivory.google_map.helper.collector.static.marker" />
@@ -622,7 +687,8 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.polyline"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.polyline"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\PolylineSubscriber"
         >
             <argument type="service" id="ivory.google_map.helper.collector.static.polyline" />
@@ -631,14 +697,16 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.scale"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.scale"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\ScaleSubscriber"
         >
             <tag name="ivory.google_map.helper.map.static.subscriber" />
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.size"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.size"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\SizeSubscriber"
         >
             <argument type="service" id="ivory.google_map.helper.renderer.static.size" />
@@ -646,21 +714,24 @@
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.type"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.type"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\TypeSubscriber"
         >
             <tag name="ivory.google_map.helper.map.static.subscriber" />
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.static.zoom"
+ public="true"
+             id="ivory.google_map.helper.subscriber.static.zoom"
             class="Ivory\GoogleMap\Helper\Subscriber\Image\ZoomSubscriber"
         >
             <tag name="ivory.google_map.helper.map.static.subscriber" />
         </service>
 
         <service
-            id="ivory.google_map.helper.subscriber.utility.object_to_array"
+ public="true"
+             id="ivory.google_map.helper.subscriber.utility.object_to_array"
             class="Ivory\GoogleMap\Helper\Subscriber\Utility\ObjectToArraySubscriber"
             parent="ivory.google_map.helper.subscriber.abstract"
         >

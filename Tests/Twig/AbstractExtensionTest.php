@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Ivory\GoogleMapBundle\Tests\Twig;
+namespace Ivory\GoogleMapBundle\Tests\Twig;use PHPUnit\Framework\TestCase;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>
  */
-abstract class AbstractExtensionTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractExtensionTest extends TestCase
 {
     /**
      * @var \Twig_Environment

@@ -13,7 +13,7 @@ namespace Ivory\GoogleMapBundle\Tests\Twig;
 
 use Ivory\GoogleMap\Helper\StaticMapHelper;
 use Ivory\GoogleMap\Map;
-use Ivory\GoogleMapBundle\Twig\StaticMapExtension;
+use Ivory\GoogleMapBundle\Twig\StaticMapExtension;use PHPUnit\Framework\TestCase;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>
